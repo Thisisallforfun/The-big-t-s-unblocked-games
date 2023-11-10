@@ -1,15 +1,55 @@
 
-        body{background:linear-gradient(azure,rgb(132, 55, 232));}
+        body{background:linear-gradient(azure,rgb(132, 55, 232));
+        background-repeat: no-repeat;
+    background-attachment: fixed;}
         h1{color:rgba(0, 0, 255, 0.672);
         font-family: "press start 2P";
+        text-shadow: 0px 0px 10px rebeccapurple,0px 0px 10px royalblue;
+        text-align: center;
         }
-        a{color: lightseagreen;
-        font-family: "comic neue";
-    font-size: x-large;}
-        h3{color: rgb(42, 123, 96);}
+       
+        h3{color: rgb(132, 216, 188);}
         p{font-family:cursive;}
         h2{font-family: fantasy;}
         
+        a:hover{
+            color: aquamarine;
+        }
+        a{
+            color: lightseagreen; 
+            font-size: xx-large;
+            font-family:"comic neue";
+            text-align: center;
+        }
+        a:active{
+            color: teal;
+        }
+        #p1{
+            color: rgb(255, 0, 0);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+        .fa-solid{
+            color: rgb(119, 0, 255);
+            font-size: x-large;
+
+        }
+        #Hi{
+         position:relative;
+         top: 20px;
+         right: -500px;
+        }
+        #bald{
+            position: relative;
+            top: 20px;
+            right: -500px;
+
+        }
+        #oliver{
+            position: relative;
+            top: 40px;
+            right: -430px;
+        }
         
         
 
